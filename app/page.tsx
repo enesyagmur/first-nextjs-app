@@ -1,4 +1,10 @@
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Home Page",
+  description: "Main page start point",
+};
 
 export default function Home() {
   return (
@@ -7,3 +13,5 @@ export default function Home() {
     </div>
   );
 }
+
+// tıklanan ürünün detay sayfasına gönderme işlemindeyim

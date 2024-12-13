@@ -1,4 +1,10 @@
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Contact Page",
+  description: "info for contact us",
+};
 
 const ContactPage = () => {
   return (
